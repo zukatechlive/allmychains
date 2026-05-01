@@ -5,7 +5,7 @@ do
 			local NAME = "ZukaTech"
 			local REVISION = "V2"
 			local VERSION = "v2.0"
-			local BY = "levno-710 + Zuka"
+			local BY = "Zuka"
 			for _, currArg in pairs(arg or {}) do
 				if currArg == "--CI" then
 					local releaseName = string.gsub(string.format("%s %s %s", NAME, REVISION, VERSION), "%s", "-")
